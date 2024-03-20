@@ -11,9 +11,10 @@
 # *           *
 # *           *
 # ** ** ** ** *
-
+# first solution
 ast = '*'
 print(ast + ast + ast + ast + '\n' + ast + ' ' + ' ' + ast + '\n' + ast + ' ' + ' ' + ast + '\n' + ast + ast + ast + ast)
+# second solution
 print('*********\n*       *\n*       *\n*********')
 
 # Задание 3: Напишите программу для нахождения цифр четырёхзначного числа. Число вводится при помощи методa input()
@@ -23,15 +24,18 @@ print('*********\n*       *\n*       *\n*********')
 # Сотни - 4
 # Десятки - 9
 # Единицы - 8
-#
+
+# first solution
+
 # bigNum = int(input('Enter a 4 digit number - '))
 # thousand = bigNum // 1000
 # hundred = (bigNum - thousand*1000) //100
 # decimals = (bigNum - thousand*1000 - hundred*100) // 10
-# singles = (bigNum - thousand*1000 - hundred*100 - decimals*10) // 1
+# singles = (bigNum - thousan d*1000 - hundred*100 - decimals*10) // 1
 #
 # print(f' Thousands - {thousand} \n Hundreds - {hundred} \n Decimals - {decimals} \n Singles - {singles}')
 
+# second solution
 number = int(input('Please enter 4-digit number: '))
 thousand = number//1000
 hundred = number%1000//100
