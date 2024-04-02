@@ -3,6 +3,7 @@ print (x == 5)
 print (x > 3 and x < 8)
 
 num = 5
+print(type(x))
 if num == 5:
     print('Five!')
 elif num < 5:
